@@ -1,16 +1,16 @@
 /*
 ============================================
-; Title: Assignment 1.4
+; Title:  hennessy-assignment-1.4.ts
 ; Author: Professor Krasso
-; Date: 13 July 2019
+; Date:   13 July 2019
 ; Modified By: Drew Hanson
-; Description: Building an angular app without angular CLI
+; Description: TypeScript
 ;===========================================
 */
 var firstName = 'Drew';
 var lastName = 'Hanson';
 function myName(firstName, lastName) {
-    return 'Hello I am ' + firstName + ' ' + lastName;
+    return 'Hello I am' + firstName + ' ' + lastName;
 }
 ;
 console.log(myName(firstName, lastName));
