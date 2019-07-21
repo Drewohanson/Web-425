@@ -15,7 +15,7 @@ import { Component, OnInit } from '@angular/core';
   template:
   <br/>
   <div class="content">
-    <h1 class="text-cetnter">About Us</h1>
+    <h1 class="text-cetnter">About</h1>
     <div class="text-left form">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat vel sapien rhoncus ullamcorper.
       Duis tincidunt ex at felis viverra auctor. Ut placerat rutrum blandit. Integer congue tincidunt lectus id
@@ -35,22 +35,6 @@ import { Component, OnInit } from '@angular/core';
         nisi. Pellentesque mattis mollis sapien a sollicitudin. Vivamus varius lacus nisi, ut pellentesque metus
         luctus nec. Suspendisse quis imperdiet quam. Suspendisse ac metus quis augue tristique lacinia.</p>
 
-      <p>Nam viverra tempor egestas. Sed tincidunt facilisis nulla in blandit. Etiam id felis quis turpis volutpat
-      ornare. Vestibulum tincidunt erat at aliquet aliquet. Nunc venenatis gravida massa eu feugiat. Maecenas
-      ornare a lorem et venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-        himenaeos. Nunc convallis, augue quis venenatis aliquam, nulla mi placerat tellus, quis aliquam tellus nulla
-        quis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas
-          iaculis tortor pharetra, placerat odio in, ultrices sapien. In at purus a nunc semper accumsan. Ut bibendum
-          risus sit amet dui tincidunt, et sagittis risus convallis.</p>
-
-      <p>Fusce tincidunt, velit at varius venenatis, tellus massa blandit felis, in consectetur diam leo vel metus.
-      Mauris pellentesque purus sed tristique lacinia. Vivamus lobortis feugiat erat, id pretium ex feugiat non.
-      Donec nec molestie eros. Proin eget venenatis nulla. Nullam pharetra euismod elit, eu fringilla orci ultrices
-        quis. Pellentesque efficitur magna neque, non suscipit lectus suscipit quis. Pellentesque habitant morbi
-        tristique senectus et netus et malesuada fames ac turpis egestas. Etiam massa dolor, porttitor ac consequat
-        a, fringilla tincidunt magna. Duis sagittis sapien nibh, sodales fringilla justo ullamcorper sed. Integer
-        varius, libero vel euismod volutpat, nunc felis congue enim, quis cursus ante risus et erat. In ornare
-        ultricies erat facilisis luctus.</p>
     </div>
   </div>
   ,
