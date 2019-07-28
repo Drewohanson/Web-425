@@ -1,6 +1,6 @@
 /*
 ============================================
-; Title:  user component spec
+; Title:  e404 component spec
 ; Author: Professor Krasso
 ; Date:   28 July 2019
 ; Modified By: Drew Hanson
@@ -9,21 +9,21 @@
 */
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UserComponent } from './user.component';
+import { E404Component } from './e404.component';
 
-describe('UserComponent', () => {
-  let component: UserComponent;
-  let fixture: ComponentFixture<UserComponent>;
+describe('E404Component', () => {
+  let component: E404Component;
+  let fixture: ComponentFixture<E404Component>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ UserComponent ]
+      declarations: [ E404Component ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(UserComponent);
+    fixture = TestBed.createComponent(E404Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

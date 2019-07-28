@@ -1,29 +1,29 @@
 /*
 ============================================
-; Title:  user component spec
+; Title: product description component spec
 ; Author: Professor Krasso
-; Date:   28 July 2019
+; Date: 28 July 2019
 ; Modified By: Drew Hanson
-; Description: Exercise 3.2
+; Description: Exercise 3.3
 ;===========================================
 */
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UserComponent } from './user.component';
+import { ProductDescriptionComponent } from './product-description.component';
 
-describe('UserComponent', () => {
-  let component: UserComponent;
-  let fixture: ComponentFixture<UserComponent>;
+describe('ProductDescriptionComponent', () => {
+  let component: ProductDescriptionComponent;
+  let fixture: ComponentFixture<ProductDescriptionComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ UserComponent ]
+      declarations: [ ProductDescriptionComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(UserComponent);
+    fixture = TestBed.createComponent(ProductDescriptionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
