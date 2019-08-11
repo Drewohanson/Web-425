@@ -1,11 +1,11 @@
 /*
-============================================
-; Title:  test.ts
-; Author: Professor Krasso
-; Date:   10 August 2019
-; Modified By: Drew Hanson
-; Description: Exercise 5.2 - Navigation
-;===========================================
+=====================================
+  ; Title: test.ts
+  ; Author: Drew Hanson
+  ; Date: August 10 2019
+  ; Modified By: Drew Hanson
+  ; Description: test.ts
+======================================
 */
 
 // This file is required by karma.conf.js and loads recursively all the .spec and framework files

@@ -1,19 +1,13 @@
-/*
-=====================================
-  ; Title: app.component.spec.ts
-  ; Author: Drew Hanson
-  ; Date: August 10 2019
-  ; Modified By: Drew Hanson
-  ; Description: app.component.spec.ts
-======================================
-*/
-
 import { TestBed, async } from '@angular/core/testing';
+import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [
+        RouterTestingModule
+      ],
       declarations: [
         AppComponent
       ],
@@ -26,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'md-toolbar'`, () => {
+  it(`should have as title 'md-layout'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('md-toolbar');
+    expect(app.title).toEqual('md-layout');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to md-toolbar!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to sullenger-MD-In-Action!');
   });
 });

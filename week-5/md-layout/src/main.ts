@@ -1,13 +1,3 @@
-/*
-=====================================
-  ; Title: main.ts
-  ; Author: Drew Hanson
-  ; Date: August 10 2019
-  ; Modified By: Drew Hanson
-  ; Description: main.ts
-======================================
-*/
-
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 

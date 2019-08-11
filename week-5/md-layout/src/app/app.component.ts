@@ -1,10 +1,10 @@
 /*
 ============================================
-; Title:  app.component.ts
+; Title: Assignment 5.4
 ; Author: Professor Krasso
-; Date:   10 August 2019
+; Date: 11 August 2019
 ; Modified By: Drew Hanson
-; Description: Exercise 5.2 - Material Cards
+; Description: app.component.ts
 ;===========================================
 */
 
@@ -16,5 +16,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'login';
+  title = 'md-layout';
 }

@@ -1,10 +1,11 @@
+
 /*
 =====================================
-  ; Title: app.e2e-spec.ts
+  ; Title: app.e2e.spec.ts
   ; Author: Drew Hanson
   ; Date: August 10 2019
   ; Modified By: Drew Hanson
-  ; Description: app.e2e-spec.ts
+  ; Description: app.e2e.spec.ts
 ======================================
 */
 import { AppPage } from './app.po';

@@ -1,25 +1,19 @@
-<!--
-============================================
-; Title:  Navigation
-; Author: Professor Krasso
-; Date:  11 August 2019
-; Modified by: Andrew Hemminger
-; Description: Exercise 5.2 - Navigation
-;===========================================
--->
 <mat-toolbar class="menu" role="header" color="primary">
   <mat-toolbar-row>
     <button mat-button class="toolbar__icon-button mat-button">
       <mat-icon>web</mat-icon>
-      <span style="margin-left: 5px !important;">WEB 425</span>
+      <span style="margin-left: 5px !important">Sully Services</span>
     </button>
-    <button mat-button class="mat-button">About</button>
-    <button mat-button class="mat-button">Contact Us</button>
+    <button mat-button [routerLink]="['/']" class="mat-button">
+      Home
+    </button>
+    <button mat-button [routerLink]="['/login']" class="mat-button">
+      Login
+    </button>
 
     <div fxFlex></div>
 
-    <!-- User Profile -->
-    <button class="toolbar__icon-button" [matMenuTriggerFor]="menu" mat-icon-button>
+    <button mat-icon-button class="toolbar__icon-button" [matMenuTriggerFor]="menu">
       <mat-icon>account_circle</mat-icon>
     </button>
     <mat-menu #menu="matMenu">
@@ -39,6 +33,4 @@
   </mat-toolbar-row>
 </mat-toolbar>
 
-<div class="wrapper">
-  <h2>md-toolba</h2>
-</div>
+  <router-outlet></router-outlet>
