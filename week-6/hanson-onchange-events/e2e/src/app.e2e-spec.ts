@@ -1,12 +1,3 @@
-/*
-============================================
-; Title: Assignment 6.2
-; Author: Professor Krasso
-; Date: 13 August 2019
-; Modified By: Drew Hanson
-; Description:app.e2e-spec.ts
-;===========================================
-*/
 import { AppPage } from './app.po';
 import { browser, logging } from 'protractor';
 
@@ -19,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to hanson-input-properties!');
+    expect(page.getTitleText()).toEqual('Welcome to hanson-onchange-events!');
   });
 
   afterEach(async () => {

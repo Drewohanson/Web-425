@@ -1,3 +1,12 @@
+/*
+============================================
+; Title: Assignment 6.2
+; Author: Professor Krasso
+; Date: 13 August 2019
+; Modified By: Drew Hanson
+; Description: polyfills.ts
+;===========================================
+*/
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.

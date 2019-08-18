@@ -1,0 +1,43 @@
+
+.parent{
+  height:100vh;
+
+}
+
+.left{
+  background-color: rgb(10, 189, 189);
+  max-width:25vw;
+}
+
+.right{
+  background-color: rgba(46, 28, 146, 0.836);
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  color: rgb(255, 129, 129);
+}
+
+.frm-login {
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+.frm-login-body {
+  display: flex;
+  flex-direction: column;
+   margin-top: 15px;
+   background-color: rgb(133, 167, 231);
+   padding:20px;
+   border: 2px solid black;
+   border-radius: 20px;
+}
+
+.wrapper {
+  width: 100%;
+}
