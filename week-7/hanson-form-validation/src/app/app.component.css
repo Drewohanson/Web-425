@@ -1,0 +1,49 @@
+.error{
+  color: red;
+}
+
+.hasError{
+  border: 1px solid red;
+}
+.parent{
+  height:100vh;
+
+}
+
+.left{
+  background-color: rgb(0, 26, 255);
+  max-width:25vw;
+}
+
+.right{
+  background-color: rgb(63, 207, 26);
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  color: rgb(235, 81, 81);
+}
+
+.frm-login {
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+.frm-login-body {
+  display: flex;
+  flex-direction: column;
+   margin-top: 15px;
+   background-color: azure;
+   padding:20px;
+   border: 2px solid black;
+   border-radius: 20px;
+}
+
+.wrapper {
+  width: 100%;
+}
