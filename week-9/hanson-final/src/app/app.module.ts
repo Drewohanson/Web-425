@@ -1,17 +1,22 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MaterialModule } from './material/material.module';
+/*
+=====================================
+  ; Title: app.module.ts
+  ; Author: Drew Hanson
+  ; Date: September 07 2019
+  ; Modified By: Drew Hanson
+  ; Description: bob's computer shop
+======================================
+*/
 
-import { AppRoutingModule } from './app-routing.module';
-import {FlexLayoutModule} from '@angular/flex-layout';
-import { AppComponent } from './app.component';
-import { LayoutComponent } from './layout/layout.component';
-import { NavComponent } from './nav/nav.component';
-import { FormComponent } from './form/form.component';
-import { HomeComponent } from './home/home.component';
-import { OrderComponent } from './order/order.component';
-import { InvoiceComponent } from './invoice/invoice.component';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
+
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
+import { OrderComponent } from "./order/order.component";
+import { HomeComponent } from "./home/home.component";
+import { InvoiceComponent } from "./invoice/invoice.component";
+
 import {
   MatButtonModule,
   MatIconModule,
@@ -21,38 +26,36 @@ import {
   MatSidenavModule,
   MatToolbarModule,
   MatMenuModule,
+  MatCheckboxModule,
 } from "@angular/material";
-import { FormsModule } from '@angular/forms';
-import { MatCheckboxModule } from '@angular/material/checkbox';
+import { FormsModule } from "@angular/forms";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { FlexLayoutModule } from "@angular/flex-layout";
+import { CommonModule } from "@angular/common";
+import { MatDialogModule } from "@angular/material/dialog";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    OrderComponent,
-    InvoiceComponent,
-    LayoutComponent,
-    NavComponent,
-    FormComponent
-  ],
+  declarations: [AppComponent, OrderComponent, HomeComponent, InvoiceComponent],
   imports: [
     BrowserModule,
-    FlexLayoutModule,
     AppRoutingModule,
-    FormsModule,
     MatButtonModule,
+    BrowserAnimationsModule,
     MatIconModule,
     MatCardModule,
     MatFormFieldModule,
     MatInputModule,
     MatSidenavModule,
     MatToolbarModule,
-    BrowserAnimationsModule,
     MatMenuModule,
-    MaterialModule,
     MatCheckboxModule,
+    MatDialogModule,
+    FormsModule,
+    FlexLayoutModule,
+    CommonModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [InvoiceComponent]
 })
 export class AppModule { }

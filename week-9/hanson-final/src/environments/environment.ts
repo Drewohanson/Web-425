@@ -1,3 +1,14 @@
+/*
+=====================================
+  ; Title: environment.ts
+  ; Author: Drew Hanson
+  ; Date: September 07 2019
+  ; Modified By: Drew Hanson
+  ; Description: bob's computer shop
+======================================
+*/
+
+
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.

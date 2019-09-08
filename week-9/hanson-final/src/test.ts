@@ -1,3 +1,12 @@
+/*
+=====================================
+  ; Title: test.ts
+  ; Author: Drew Hanson
+  ; Date: September 07 2019
+  ; Modified By: Drew Hanson
+  ; Description: bob's computer shop
+======================================
+*/
 // This file is required by karma.conf.js and loads recursively all the .spec and framework files
 
 import 'zone.js/dist/zone-testing';
